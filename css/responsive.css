@@ -1,7 +1,7 @@
         @media (max-width: 1100px) {
             /* LAB */
             section.lab {
-                height: 1850px;
+                height: 1650px;
             }
             section.lab .projects {
                 grid-template-columns: 1fr;
