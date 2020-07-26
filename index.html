@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Portifólio</title>
+    <link href="css/index.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Poppins:wght@300&Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/responsive.css">
+    <link rel="stylesheet" href="/css/menu-mobile.css">
+</head>
+
+<body>
+    <header class="desktop">
+        <div class="content">
+            <nav>
+                <ul>
+                    <div class="logo">
+                        <code class="arrow"> <</code><code class="arrow">/</code><span class="name"> Kaique
+                        Tavares</span><code class="arrow">></code>
+                    </div>
+                    <input type="radio" name="bar" id="intro" />
+                    <input type="radio" name="bar" id="sobre" />
+                    <input type="radio" name="bar" id="skills">
+                    <input type="radio" name="bar" id="lab">
+                    <input type="radio" name="bar" id="contato">
+                    <div class="menu">
+
+                        <a href="#intro" id="intro">
+                            <label for="intro">
+                            <li>Intro</li>
+                            <div class="selected-1"></div>
+                        </label>
+                        </a>
+
+
+                        <a href="#" id="sobre">
+                            <label for="sobre">
+                            <li>Sobre</li>
+                            <div class="selected"></div>
+                        </label>
+                        </a>
+                        <a href="#" id="skills">
+                            <label for="skills">
+                            <li>Skills</li>
+                            <div class="selected-2"></div>
+                        </label>
+                        </a>
+                        <a href="#" id="lab">
+                            <label for="lab">
+                            <li>Laboratório</li>
+                            <div class="selected-3"></div>
+                        </label>
+                        </a>
+                        <a href="#" id="contact">
+                            <label for="contato">
+                            <li>Contato</li>
+                            <div class="selected-4"></div>
+                        </label>
+                        </a>
+                    </div>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <input type="checkbox" name="menu-mobile" id="mobile-menu">
+    <header class="mobile">
+        <label for="mobile-menu">
+            <div class="menu-mobile">
+                <div class="line line-1"></div>
+                <div class="line line-2"></div>
+                <div class="line line-3"></div>
+            </div>
+        </label>
+        <nav>
+            <ul>
+                <div class="logo">
+                    <code class="arrow"> <</code><code class="arrow">/</code><span class="name"> Kaique
+                        Tavares</span><code class="arrow">></code>
+                </div>
+                <label for="mobile-menu">
+                <div class="menu">
+                    <a href="#intro" id="intro">
+                        <label for="intro">
+                        <li>Intro</li>
+                        <div class="selected-1"></div>
+                    </label>
+                </a>
+                <a href="#" id="sobre">
+                    <label for="sobre">
+                        <li>Sobre</li>
+                        <div class="selected"></div>
+                    </label>
+                </a>
+                <a href="#" id="skills">
+                    <label for="skills">
+                        <li>Skills</li>
+                        <div class="selected-2"></div>
+                    </label>
+                </a>
+                <a href="#" id="lab">
+                    <label for="lab">
+                        <li>Laboratório</li>
+                        <div class="selected-3"></div>
+                    </label>
+                </a>
+                <a href="#" id="contact">
+                    <label for="contato">
+                        <li>Contato</li>
+                        <div class="selected-4"></div>
+                    </label>
+                </a>
+            </ul>
+            </label>
+        </nav>
+    </header>
+
+    <section class="section-intro" id="section-intro">
+        <div class="info" id=#info>
+            <span>DESENVOLVEDOR WEB</span>
+            <h1>Kaique Tavares</h1>
+            <p>
+                Sou um desenvolvedor web, e futuro desenvolvedor full stack, focado na stack Javascript.
+            </p>
+            <button>BAIXAR CURRÍCULO</button>
+        </div>
+        <div class="svg-programmer">
+            <img src="images/SVG PROGRAMADOR 04.svg" alt="Programador" />
+        </div>
+    </section>
+
+    <section class="info" id="section-info">
+        <div class="infos">
+            <div class="info-me">
+                <img class="me" src="images/WhatsApp Image 2020-07-22 at 10.44.52 AM.jpeg" alt="Autor do site">
+                <h2>Kaique Tavares</h2>
+                <div class="icons-wraper">
+                    <a href="#"><img class="icons" src="images/envelope.svg" alt="Meu Email"></a>
+                    <a href="#"><img class="icons" src="images/github-brands.svg" alt="GitHub Button"></a>
+                    <a href="#"><img class="icons" src="images/linkedin.svg" alt="Meu Linkedin"></a>
+                </div>
+
+            </div>
+            <div class="info-me2">
+                <div class="about">
+                    <a href="#"><img class="icons-2" src="images/Group 5.svg" alt=""></a>
+                    <h1>Sobre</h1>
+                </div>
+                <h2>Conheça um pouco sobre mim</h2>
+                <p>Sou programador a quase 1 ano, estou focando na stack do Javascript, tenho experiência com html 5, nunjucks, css grid e flex layout.</p>
+                <p>Busco uma oportunidade de melhorar como desenvolvedor aceitando novos desafios e aprendendo coisas novas todos os dias</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="section-skills">
+        <div class="skills-title">
+            <img src="images/Group 5.svg" alt="">
+            <h2>Skills</h2>
+        </div>
+        <div class="icons-container">
+            <div class="icon-item">
+                <img src="images/logos_css-3.svg" alt="Logo Css">
+                <div class="bar-css">
+                    <div class="bar2-css"></div>
+                </div>
+
+            </div>
+            <div class="icon-item">
+                <img src="images/logos_html-5.svg" alt="Logo Html">
+                <div class="bar-html">
+                    <div class="bar2-html"></div>
+                </div>
+            </div>
+            <div class="icon-item">
+                <img class="js" src="images/logos_javascript.svg" alt="Logo Javascript">
+                <div class="bar-js">
+                    <div class="bar2-js"></div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+
+    <section class="lab" id="section-lab">
+        <div class="title">
+            <img src="images/Group 5.svg" alt="Quadrado">
+            <h1>Laboratório</h1>
+        </div>
+        <div class="projects">
+            <div class="project-item">
+                <div class="item-info-1">
+                    <img class="site" src="images/wildbeast.jpg" alt="">
+                    <h1>Landing Page - Wildbeast</h1>
+                    <p>Uma landing page feito para treino</p>
+                    <p>de grid layout e melhora de minhas habilidades</p>
+                    <div class="text">
+                    </div>
+                </div>
+                <div class="item-info-2">
+                    <div class="text">
+                        <h1>Landing Page - Wildbeast</h1>
+                        <p>Uma landing page feito para treino</p>
+                        <div class="buttons">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button class="grid">GRID LAYOUT</button>
+                        </div>
+                        <a href=""><button class="site-1">ACESSAR</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="item-info-1">
+                    <img class="site" src="images/be-the-hero.png" alt="Be the hero WebSite">
+                    <div class="text">
+                        <h1>WebSite - Be The Hero</h1>
+                        <p>Uma plataforma feita para ajudar ongs</p>
+                        <p>a encontrarem pessoas que as ajudem</p>
+                    </div>
+                </div>
+                <div class="item-info-2">
+                    <div class="text">
+                        <h1>Website - Be The Hero</h1>
+                        <p>Uma plataforma feita para ajudar ongs</p>
+                        <div class="buttons">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button class="grid">FLEX LAYOUT</button>
+                            <BUTton>JAVASCRIPT</BUTton>
+                            <BUTton>REACT JS</BUTton>
+                            <BUTton>NODE</BUTton>
+
+
+
+                        </div>
+                        <a href=""><button class="site-1">ACESSAR</button></a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-item">
+                <div class="item-info-1">
+                    <img class="site" src="images/ecoleta.jpg" alt="Ecoleta Web Site">
+                    <div class="text">
+                        <h1>Website - Ecoletat</h1>
+                        <p>Uma plataforma desenvolvida com a intenção de facilitar a coleta de resíduos</p>
+                        <p>facilitando a coleta de material reciclável</p>
+                    </div>
+                </div>
+                <div class="item-info-2">
+                    <div class="text">
+                        <h1>Website - Ecoleta</h1>
+                        <p>Uma plataforma desenvolvida com a intenção de facilitar a coleta de resíduos</p>
+                        <div class="buttons">
+                            <button>HTML</button>
+                            <button>CSS</button>
+                            <button class="grid">FLEX LAYOUT</button>
+                            <BUTTOn>NUNJUCKS</BUTTOn>
+                            <BUTTON>JAVASCRIPT</BUTTON>
+                            <BUTTOn>NODE</BUTTOn>
+                        </div>
+                        <a href=""><button class="site-1">ACESSAR</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="section-contact">
+        <div class="title">
+            <img src="images/Group 5.svg" alt="Quadrado">
+            <h1>Contato</h1>
+        </div>
+        <p>Fique a vontade para entrar em contato comigo.</p>
+        <div class="contact-icons">
+            <div class="grade-1">
+                <div class="item">
+                    <img src="images/tel.svg" alt="Telefone Icon">
+                    <a href="callto:82999494953">(82) 9 9949-4953</a>
+                </div>
+                <div class="item"><img src=".images/github-brands.svg" alt="Github icon">
+                    <a href="https://github.com/kaiqueq147">github.com/kaiqueq147</a>
+                </div>
+            </div>
+            <div class="grade-2">
+                <div class="item">
+                    <img src="images/envelope.svg" alt="Email icon">
+                    <a href="mailto:kaiqueq147@gmail.com">kaiqueq147@gmail.com</a>
+                </div>
+                <div class="item">
+                    <img src="images/linkedin.svg" alt="LinkediN icon">
+                    <a href="https://www.linkedin.com/in/kaique-t/">linkedin.com/kaique-t</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <footer>
+        <span>© 2020 Kaique Tavares - Design by  <span class="design">Lavínia Melo</span </span>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html

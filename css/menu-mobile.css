@@ -1,0 +1,101 @@
+header.mobile nav .logo {
+    font-family: 'Orbitron', sans-serif;
+    font-weight: 900;
+}
+
+header.mobile nav .logo {
+    font-size: 1.3em;
+}
+
+header.mobile nav .logo .arrow {
+    color: var(--secondary-text);
+    font-size: 1.5em;
+    text-shadow: 1px 1px 10px var(--secondary-text);
+}
+
+header.mobile nav ul .menu {
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    justify-content: flex-end;
+    align-items: flex-end;
+    position: fixed;
+    z-index: 99999;
+}
+
+header.mobile nav ul .menu {
+    display: none;
+    transition: 400ms;
+}
+
+header.mobile nav ul .menu a {
+    padding: 20px 2%;
+}
+
+input#mobile-menu {
+    display: none;
+}
+
+.menu-mobile {
+    z-index: 99999;
+    position: fixed;
+    right: 30px;
+    top: 22px;
+    width: 30px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+.menu-mobile div {
+    position: relative;
+    width: 20px;
+    height: 3px;
+    background: white;
+    margin: 5px;
+    border-radius: 5px;
+    transition: 400ms;
+}
+
+#mobile-menu:checked~header.mobile nav ul .menu {
+    display: flex;
+    background: #0000001f;
+    backdrop-filter: blur(4px);
+    border-radius: 10px;
+    margin-top: 30px;
+    margin: 30px 0;
+    width: 95%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    transition: 400ms;
+}
+
+#mobile-menu:checked~header.mobile .menu-mobile .line-1 {
+    background: var(--secondary-text);
+    transition: 400ms;
+    position: absolute;
+    top: 7px;
+    position: absolute;
+    transform: rotate(35deg) scale(1.4, 1.4);
+    box-shadow: 1px 1px 5px var(--secondary-text);
+}
+
+#mobile-menu:checked~header.mobile .menu-mobile .line-2 {
+    background: var(--secondary-text);
+    display: none;
+    transition: 400ms;
+    position: absolute;
+}
+
+#mobile-menu:checked~header.mobile .menu-mobile .line-3 {
+    transition: 400ms;
+    background: var(--secondary-text);
+    box-shadow: 1px 1px 5px var(--secondary-text);
+    position: absolute;
+    transform: scaleX(-1) rotate(35deg) scale(1.4, 1.4);
+    top: 7px;
+}
+
+#mobile-menu:checked~header.mobile nav ul li {
+    padding: 5px 0;
+}
