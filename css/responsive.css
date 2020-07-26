@@ -83,6 +83,10 @@
                 margin: -30px 50% 0 25%;
                 text-align: center;
             }
+            section.contact {
+                height: 700px;
+                margin-top: 50px;
+            }
         }
         
         @media (max-width: 630px) {
