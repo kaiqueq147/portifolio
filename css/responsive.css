@@ -1,7 +1,7 @@
         @media (max-width: 1100px) {
             /* LAB */
             section.lab {
-                height: 1650px;
+                height: 2050px;
             }
             section.lab .projects {
                 grid-template-columns: 1fr;
@@ -97,6 +97,9 @@
         }
         
         @media (max-width: 480px) {
+            section.contact {
+                margin-top: 100px;
+            }
             section.contact .contact-icons {
                 margin: 0 15% 10px 5%;
             }
