@@ -183,7 +183,7 @@ label {
 }
 
 section.info {
-    background-image: url('images/fundo-1.png');
+    background-image: url('/images/fundo-1.png');
     background-position: left 25%;
     background-size: cover;
     height: 1300px;
