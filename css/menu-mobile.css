@@ -61,6 +61,7 @@ input#mobile-menu {
     display: flex;
     background: #0000001f;
     backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
     border-radius: 10px;
     width: 90%;
     height: 80%;

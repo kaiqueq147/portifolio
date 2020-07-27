@@ -425,7 +425,8 @@ section.lab .projects {
 section.lab .projects .project-item {
     width: 66%;
     margin: 30px auto;
-    max-height: 500px;
+    min-height: 380px;
+    max-height: 420px;
     border-radius: 15px;
     background: #2A3443;
     position: relative;
