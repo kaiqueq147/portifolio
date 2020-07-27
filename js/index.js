@@ -52,6 +52,7 @@ const skillsMobile = document.querySelector('header.mobile nav ul .menu a#skills
 const labMobile = document.querySelector('header.mobile nav ul .menu a#lab')
 const contactMobile = document.querySelector('header.mobile nav ul .menu a#contact')
 
+
 sobreIntro.addEventListener('click', function() {
     window.scroll({
         top: 0,
@@ -86,9 +87,11 @@ labMobile.addEventListener('click', function() {
 
 contactMobile.addEventListener('click', function() {
     window.scroll({
-        top: 4750,
+        top: 4800,
         behavior: 'smooth'
     })
 })
+
+
 
 //mobile
