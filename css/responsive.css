@@ -78,9 +78,9 @@
             section.contact .contact-icons {
                 padding: 20px 0;
                 flex-direction: column;
-                justify-content: space-between;
-                width: 70%;
-                margin: -30px 50% 0 25%;
+                align-items: center;
+                width: 90%;
+                margin: 0 auto;
                 text-align: center;
             }
             section.contact {
