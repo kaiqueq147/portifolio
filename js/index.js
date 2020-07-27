@@ -87,7 +87,7 @@ labMobile.addEventListener('click', function() {
 
 contactMobile.addEventListener('click', function() {
     window.scroll({
-        top: 4800,
+        top: 4850,
         behavior: 'smooth'
     })
 })
