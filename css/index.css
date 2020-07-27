@@ -33,13 +33,13 @@ header .content {
     width: 90%;
     z-index: 999;
     backdrop-filter: blur(3px);
+    margin: 0 auto;
 }
 
 header.desktop,
 header.mobile {
     margin: 0 auto;
-    max-width: 100%;
-    max-width: 1200px;
+    max-width: 90%;
     padding: 20px 2%;
 }
 
@@ -132,8 +132,7 @@ label {
 }
 
 .section-intro {
-    width: 100%;
-    max-width: 1200px;
+    width: 90%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -213,8 +212,8 @@ section.info .infos {
     height: 1200px;
     display: flex;
     align-items: center;
-    max-width: 1200px;
     margin: 0 auto;
+    max-width: 90%;
     padding: 40px 2%;
 }
 
@@ -298,6 +297,7 @@ section.skills {
     width: 100%;
     height: 500px;
     flex-direction: column;
+    margin-top: 50px;
 }
 
 section.skills .skills-title {
@@ -425,7 +425,7 @@ section.lab .projects {
 section.lab .projects .project-item {
     width: 66%;
     margin: 30px auto;
-    max-height: 400px;
+    max-height: 500px;
     border-radius: 15px;
     background: #2A3443;
     position: relative;
