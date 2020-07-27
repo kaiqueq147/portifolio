@@ -141,4 +141,7 @@
             section.lab .projects .project-item {
                 max-height: 440px;
             }
+            section.info img.me {
+                margin-top: 30px;
+            }
         }
