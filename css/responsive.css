@@ -125,3 +125,17 @@
                 width: 80%;
             }
         }
+        
+        @media(max-width: 350px) {
+            .section-intro .info {
+                max-width: 200px;
+                margin: 0 auto;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .section-intro .info button {
+                max-width: 200px;
+            }
+        }
