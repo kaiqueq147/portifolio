@@ -53,6 +53,9 @@
             .section-intro button {
                 margin-top: 50px;
             }
+            section.lab .projects .project-item {
+                max-height: 400px;
+            }
         }
         
         @media (max-width: 760px) {
