@@ -138,4 +138,7 @@
             .section-intro .info button {
                 max-width: 200px;
             }
+            section.lab .projects .project-item {
+                max-height: 440px;
+            }
         }
