@@ -38,7 +38,7 @@ labPc.addEventListener('click', function() {
 
 contactPc.addEventListener('click', function() {
         window.scroll({
-            top: 3000,
+            top: 3927,
             behavior: 'smooth'
         })
     })
@@ -73,21 +73,21 @@ sobreMobile.addEventListener('click', function() {
 
 skillsMobile.addEventListener('click', function() {
     window.scroll({
-        top: 2500,
+        top: 2619,
         behavior: 'smooth'
     })
 })
 
 labMobile.addEventListener('click', function() {
     window.scroll({
-        top: 3050,
+        top: 3219,
         behavior: 'smooth'
     })
 })
 
 contactMobile.addEventListener('click', function() {
     window.scroll({
-        top: 4850,
+        top: 4969,
         behavior: 'smooth'
     })
 })
@@ -95,3 +95,6 @@ contactMobile.addEventListener('click', function() {
 
 
 //mobile
+
+
+const lab = document.querySelector('section.contact')
