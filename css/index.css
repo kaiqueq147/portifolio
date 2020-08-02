@@ -150,6 +150,23 @@ label {
     text-shadow: 1px 1px 10px var(--secondary-text);
 }
 
+.section-intro .info span::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: blink 3s infinite;
+}
+
+@keyframes blink {
+    0%,
+    100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+
 .section-intro .info h1 {
     font-size: 32px;
     font-weight: 600;
