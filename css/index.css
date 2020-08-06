@@ -154,7 +154,7 @@ label {
     content: '|';
     margin-left: 5px;
     opacity: 1;
-    animation: blink 3s infinite;
+    animation: blink 1s infinite;
 }
 
 @keyframes blink {
@@ -443,12 +443,16 @@ section.lab .projects .project-item {
     width: 66%;
     margin: 30px auto;
     min-height: 380px;
-    max-height: 450px;
+    max-height: 100%;
     border-radius: 15px;
     background: #2A3443;
     position: relative;
     box-shadow: 1px 1px 5px #2b2b2b;
     padding: 0 5%;
+}
+
+section.lab .projects .project-item .text {
+    margin-bottom: 20px;
 }
 
 section.lab .projects .project-item .item-info-1 {
@@ -566,9 +570,9 @@ section.lab .projects .project-item::after {
 
 section.lab .projects .project-item img.site {
     width: 100%;
-    min-height: 35vh;
+    min-height: 40vh;
     border-radius: 5px;
-    padding-top: 20px;
+    padding: 20px 0;
 }
 
 section.contact {
