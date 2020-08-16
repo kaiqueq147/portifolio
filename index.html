@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Portifólio</title>
     <link href="css/index.css" rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Poppins:wght@300&Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet" />
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700;900&family=Poppins:wght@300&Roboto:ital,wght@0,500;1,300&display=swap" rel="stylesheet" /> -->
     <link rel="stylesheet" href="css/responsive.css">
     <link rel="stylesheet" href="css/menu-mobile.css">
 </head>
 
 <body>
 
-    <header class="desktop">
+    <header class="desktop" id=#header>
         <div class="content">
             <nav>
                 <ul>
@@ -29,7 +29,7 @@
                     <input type="radio" name="bar" id="contato">
                     <div class="menu">
 
-                        <a href="#intro" id="intro">
+                        <a href="#js-intro" id="intro">
                             <label for="intro">
                             <li>Intro</li>
                             <div class="selected-1"></div>
@@ -37,25 +37,25 @@
                         </a>
 
 
-                        <a href="#" id="sobre">
+                        <a href="#js-info" id="sobre">
                             <label for="sobre">
                             <li>Sobre</li>
                             <div class="selected"></div>
                         </label>
                         </a>
-                        <a href="#" id="skills">
+                        <a href="#js-skills" id="skills">
                             <label for="skills">
                             <li>Skills</li>
                             <div class="selected-2"></div>
                         </label>
                         </a>
-                        <a href="#" id="lab">
+                        <a href="#js-lab" id="lab">
                             <label for="lab">
                             <li>Laboratório</li>
                             <div class="selected-3"></div>
                         </label>
                         </a>
-                        <a href="#" id="contact">
+                        <a href="#js-contact" id="contact">
                             <label for="contato">
                             <li>Contato</li>
                             <div class="selected-4"></div>
@@ -118,7 +118,7 @@
         </nav>
     </header>
 
-    <section class="section-intro" id="section-intro">
+    <section class="section-intro js-scroll" id="js-intro">
         <div class="info" id=#info>
             <span>DESENVOLVEDOR WEB</span>
             <h1>Kaique Tavares</h1>
@@ -132,7 +132,7 @@
         </div>
     </section>
 
-    <section class="info" id="section-info">
+    <section class="info js-scroll" id="js-info">
         <div class="infos">
             <div class="info-me">
                 <img class="me" src="images/WhatsApp Image 2020-07-22 at 10.44.52 AM.jpeg" alt="Autor do site">
@@ -156,7 +156,7 @@
         </div>
     </section>
 
-    <section class="skills" id="section-skills">
+    <section class="skills js-scroll" id="js-skills">
         <div class="skills-title">
             <img src="images/Group 5.svg" alt="">
             <h2>Skills</h2>
@@ -186,13 +186,13 @@
         </div>
     </section>
 
-    <section class="lab" id="section-lab">
+    <section class="lab js-scroll" id="js-lab">
         <div class="title">
             <img src="images/Group 5.svg" alt="Quadrado">
             <h1>Laboratório</h1>
         </div>
         <div class="projects">
-            <div class="project-item">
+            <div class="project-item js-scroll">
                 <div class="item-info-1">
                     <img class="site" src="images/wildbeast.jpg" alt="">
                     <h1>Landing Page - Wildbeast</h1>
@@ -214,7 +214,7 @@
                     </div>
                 </div>
             </div>
-            <div class="project-item">
+            <div class="project-item js-scroll">
                 <div class="item-info-1">
                     <img class="site" src="images/be-the-hero.png" alt="Be the hero WebSite">
                     <div class="text">
@@ -242,7 +242,7 @@
                     </div>
                 </div>
             </div>
-            <div class="project-item">
+            <div class="project-item js-scroll">
                 <div class="item-info-1">
                     <img class="site" src="images/ecoleta.jpg" alt="Ecoleta Web Site">
                     <div class="text">
@@ -270,7 +270,7 @@
         </div>
     </section>
 
-    <section class="contact" id="section-contact">
+    <section class="contact js-scroll" id="js-contact">
         <div class="title">
             <img src="images/Group 5.svg" alt="Quadrado">
             <h1>Contato</h1>
