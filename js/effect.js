@@ -13,19 +13,42 @@ initScrollEffect()
 
 function initScrollEffect() {
     const scrollSection = document.querySelectorAll('.js-scroll')
+    const inputCheck = document.querySelectorAll('.input-check')
+    const radio = document.querySelectorAll('input[type=radio]')
+
+    console.log(inputCheck)
+
 
     function scrollEffect() {
 
-        scrollSection.forEach((section) => {
+        scrollSection.forEach((section, index) => {
             const sectionTop = section.getBoundingClientRect().top
             const windowHalf = window.innerHeight * 0.6
             const isVisible = (sectionTop - windowHalf) < 0
-            if (isVisible)
+
+            if (isVisible) {
                 section.classList.add('ativo')
-            else
+            } else {
                 section.classList.remove('ativo')
+
+            }
         })
     }
+
+    function radioCheck() {
+        inputCheck.forEach((section, index) => {
+            const sectionTop = section.getBoundingClientRect().top
+            const windowHalf = window.innerHeight * 0.6
+            const isVisible = (sectionTop - windowHalf) < 0
+            if (isVisible) {
+                radio[index].checked = true;
+            }
+        })
+    }
+
+
     scrollEffect()
-    window.addEventListener('scroll', scrollEffect)
+
+    window.addEventListener('scroll', scrollEffect, )
+    window.addEventListener('scroll', radioCheck, )
 }

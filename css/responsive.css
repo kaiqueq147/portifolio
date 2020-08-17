@@ -43,6 +43,7 @@
                 height: 500px;
                 justify-content: center;
                 width: 60%;
+                margin-top: 100px;
             }
             .section-intro .svg-programmer {
                 display: none;
